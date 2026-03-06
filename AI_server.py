@@ -29,4 +29,4 @@ def predict():
 
 if __name__ == "__main__":
     print("AI server running on port 5001")
-    app.run(port=5001)
+    app.run()
