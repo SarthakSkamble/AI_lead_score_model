@@ -25,8 +25,8 @@ def predict():
     data = request.json
 
     
-    engagement_score = data.get("engagement_score", 0)
-    time_on_site = data.get("time_on_site", 0)
+    engagement_score = data.get("calls", 0)
+    time_on_site = data.get("emails", 0)
     source = data.get("source", "Unknown")
     city = data.get("city", "Unknown")
 
